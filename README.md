@@ -16,7 +16,7 @@
 
 ## Nguồn Tham Khảo
 - AI: Gemini
-- Youtube: RBC Tech Vietnam
+- Youtube: RBC Tech Vietnam [Link Youtube](https://www.youtube.com/watch?si=odEZHMOgvgPvuAdw&v=_qlCQVKW2jQ&feature=youtu.be)
 
 ---
 
