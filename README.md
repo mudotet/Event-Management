@@ -14,6 +14,12 @@
 
 ---
 
+## Nguồn Tham Khảo
+- AI: Gemini
+- Youtube: RBC Tech Vietnam
+
+---
+
 ## 👤 Tác giả
 **Phan Thanh Tú**  
 MSSV: 2221050845  
