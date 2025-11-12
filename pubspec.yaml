@@ -1,0 +1,47 @@
+name: event_manager
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  # Sửa: Sử dụng phiên bản Dart SDK ổn định (ví dụ: 3.0.0 hoặc 3.4.0)
+  # Lưu ý: ^3.9.2 là phiên bản không tồn tại. Tôi đặt nó là 3.4.0 (hoặc phiên bản bạn đang dùng)
+  sdk: '>=3.4.0 <4.0.0' 
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Quản lý Dữ liệu
+  localstore: ^1.4.0 # Đã cập nhật
+  
+  # Localization và Định dạng
+  intl: '>=0.20.2 <0.21.0'
+
+  # Syncfusion Calendar và Localization (Đã sửa lỗi trùng lặp và đưa vào đây)
+  syncfusion_flutter_calendar: ^31.2.10 
+  syncfusion_localizations: ^31.2.10
+
+dev_dependencies: 
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0 # Cập nhật flutter_lints lên phiên bản ổn định (5.0.0 thường yêu cầu Flutter mới hơn)
+  
+  # Đã xóa syncfusion_flutter_calendar khỏi dev_dependencies để tránh xung đột
+  
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  generate: true
